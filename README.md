@@ -1,11 +1,11 @@
 # smart-report-agent
-基于 MCP 的智能财报分析 Agent
+智能财报分析 Agent
 
 ## 🚀 功能特点
 **重点**：可解析PDF文件中的表格、图片等等大模型难以解析的文件内容，此方法也适用于教育、法律、医疗等多个行业
 - ✅ 解析扫描版 PDF 中的表格、图片、公式
 - ✅ 自动提取营收、利润、增长率等关键指标
-- ✅ 通过 MCP 调用 `calculate_growth_rate()` 工具实现精准计算
+- ✅ 调用`calculate_growth_rate()` 工具实现精准计算
 - ✅ 使用 Ragas 框架评估回答准确性（Faithfulness > 80%）
   
 该agent用于读取财报并且回答用户相关的问题
